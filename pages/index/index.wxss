@@ -1,0 +1,56 @@
+/**样式**/
+
+.view_get_invoie {
+  margin: auto; 
+  width:55px;
+  margin-right: 0px;
+ 
+}
+
+/**获取到的权限**/
+
+.txt_get_invoie {
+  color: #1e90ff;
+  font-size: 45px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/*手机号文本框*/
+
+.user_txt_phone {
+  width: 170px;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #d1e9e9;
+}
+
+/**获取权限样式**/
+
+.btn_user_get_res {
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  color: #fff;
+  background-color: #1e90ff;
+  line-height: 50px;
+}
+
+/*圆角按钮*/
+
+.btn_user_conn {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 30px;
+  background-color: #1e90ff;
+  line-height: 200px;
+}
+
+ .my-button-hover {
+  background-color: #b9b9ff;
+}

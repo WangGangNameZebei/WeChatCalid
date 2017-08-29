@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view>
+  <!--"+" 号获取权限-->
+  <picker bindchange="bindResChange" value="{{index}}" range="{{industryArray}}">
+    <view class="view_get_invoie"  bindtap="getResNum">
+      <text class="txt_get_invoie">+</text>
+    </view>
+  </picker>
+
+
+  <!--手机输入框-->
+  <view>
+    <input id="txt_phone" bindinput="bindUserPhoneChange" class="user_txt_phone" maxlength="11" type="number" placeholder="请输入手机号码" />
+  </view>
+  <!--获取权限按钮-->
+  <view>
+    <button class="btn_user_get_res" bindtap="btnGetRes" hover-class="my-button-hover">{{user_get_res}} </button>
+  </view>
+  <!--按钮样式-->
+  <view>
+    <button  class="btn_user_conn" bindtap="btnConn" hover-class="my-button-hover" >{{myButtonConn}}</button>
+  </view>
+</view>
